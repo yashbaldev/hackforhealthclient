@@ -47,7 +47,7 @@ const LandingPage = () => {
       </div>
       <Features/>
      
-      <Additional/>
+      {/* <Additional/> */}
       <Testimonial/>
       <Contactme/>
       <hr className=" bg-white h-1 "></hr>

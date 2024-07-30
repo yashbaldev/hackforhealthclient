@@ -69,7 +69,7 @@ const MentalHealth = () => {
       let content = response?.data?.result;
       content ='about' + content + 'in_50words_and_a_Links_related' 
 
-      const res = await fetch("/api/chat", {
+      const res = await fetch("/api/GeminiChat", {
         method: "POST",
         body: JSON.stringify({ content: content || "Hello world" }),
         headers: {
